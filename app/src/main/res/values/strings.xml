@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Medical Visits</string>
+    <string name="newVisitButton">New visit</string>
+    <string name="this_is_activity_four">This is activity four</string>
+
+    <string name="Name1">Marina Kokoshkina</string>
+    <string name="Name2">Jozefa Piłka</string>
+    <string name="Name3">Mark Cocfield</string>
+    <string name="Name4">Sara Marchewka</string>
+    <string name="Name5">Ariel Hoffman</string>
+
+
+    <string name="Addr1">Lublin, Szpital wojewódzki</string>
+    <string name="Addr2">Lublin, Szpital wojewódzki</string>
+    <string name="Addr3">Lublin, Szpital wojewódzki</string>
+    <string name="Addr4">Lublin, Samodzielny Publiczny Szpital</string>
+    <string name="Addr5">Lublin, Luxmed</string>
+
+
+    <string name="Cab1">Gab. 105B</string>
+    <string name="Cab2">Gab. 151</string>
+    <string name="Cab3">Gab. 5/12</string>
+    <string name="Cab4">Gab. 536</string>
+    <string name="Cab5">Gab. 35</string>
+    <string name="HomeTitle">Home</string>
+    <string name="choose_time">Choose Time</string>
+    <string name="choose_doctor">Choose place</string>
+    <string name="home_button">Home</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="profil">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="dark_light_default">Change theme</string>
+    <string name="next">Next</string>
+</resources>
