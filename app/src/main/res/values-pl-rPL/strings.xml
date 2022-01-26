@@ -20,8 +20,8 @@
     <string name="Cab4">Cab. 536</string>
     <string name="Cab5">Cab. 35</string>
     <string name="dark_light_default">Zmień motyw</string>
-    <string name="settings">Ustawienia</string>
-    <string name="profil">Profil</string>
+    <string name="settings">Logowanie</string>
+    <string name="profil">Testowanie toast</string>
     <string name="cancel">Anuluj</string>
     <string name="add">Dodać</string>
     <string name="home_button">Do głównej</string>
@@ -33,7 +33,7 @@
     <string name="login">Zaloguj sie</string>
     <string name="don_t_have_an_account_sign_in">Nie masz konta? Zaloguj</string>
     <string name="confirm_password">Potwierdź hasło</string>
-    <string name="signed">Zalogowano</string>
+    <string name="signed">Zalogować</string>
     <string name="already_have_an_account_login">Posiadasz już konto? Zaloguj sie</string>
     <string name="successfully_signed_up">Zarejestrowano się pomyślnie</string>
     <string name="singed_up_failed">Rejestracja nie powiodła się!</string>
@@ -41,4 +41,5 @@
     <string name="blank_data">E-mail i hasło nie mogą być puste</string>
     <string name="succ_log">Zalogowano się pomyślnie</string>
     <string name="fail_log">Logowanie nie powiodło się</string>
+    <string name="sign_up">Rejestracja</string>
 </resources>

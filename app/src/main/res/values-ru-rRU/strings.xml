@@ -20,8 +20,7 @@
     <string name="Name4">Сара Мархевка</string>
     <string name="Name5">Ариэль Хоффман</string>
     <string name="dark_light_default">Cменить тему</string>
-    <string name="profil">Профиль</string>
-    <string name="settings">Настройки</string>
+    <string name="profil">Тест всплывашки</string>
     <string name="cancel">Отмена</string>
     <string name="add">Добавить</string>
     <string name="home_button">На главную</string>
@@ -33,7 +32,7 @@
     <string name="login">Авторизоваться</string>
     <string name="don_t_have_an_account_sign_in">У вас нет аккаунта? Войти</string>
     <string name="confirm_password">Подтвердите пароль</string>
-    <string name="signed">Зарегистрирован</string>
+    <string name="signed">Зарегистрироваться</string>
     <string name="already_have_an_account_login">У вас уже есть аккаунт? Авторизоваться</string>
     <string name="successfully_signed_up">Успешно зарегистрирован</string>
     <string name="singed_up_failed">Регистрация не удалась!</string>
@@ -41,4 +40,6 @@
     <string name="blank_data">Электронная почта и пароль не могут быть пустыми</string>
     <string name="succ_log">Успешный вход</string>
     <string name="fail_log">Вход в систему не удался</string>
+    <string name="settings">Авторизоваться</string>
+    <string name="sign_up">Регистрация</string>
 </resources>

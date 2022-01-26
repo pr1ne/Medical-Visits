@@ -27,17 +27,21 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         binding.newVisitButton.setOnClickListener(this)
         binding.buttonCall.setOnClickListener(this)
 
+        val myDataset = CardList.loadConsultationCards()
+        binding.recyclerView.adapter = ItemAdapter(this, myDataset)
+        binding.recyclerView.setHasFixedSize(true)
+
         registerForContextMenu(binding.buttonOpenMenu)
     }
 
     override fun onClick(v: View) {
         when (v.id) {
             binding.newVisitButton.id -> {
-                //startActivity(Intent(this, ChooseWhere::class.java))
-                CardList.addRandomConsultationCard()
-                val myDataset = CardList.loadConsultationCards()
-                binding.recyclerView.adapter = ItemAdapter(this, myDataset)
-                binding.recyclerView.setHasFixedSize(true)
+                startActivity(Intent(this, ChooseWhere::class.java))
+                //CardList.addRandomConsultationCard()
+                //val myDataset = CardList.loadConsultationCards()
+                //binding.recyclerView.adapter = ItemAdapter(this, myDataset)
+                //binding.recyclerView.setHasFixedSize(true)
             }
             binding.buttonCall.id -> {
                 val intent = Intent(Intent.ACTION_DIAL)
@@ -54,7 +58,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onContextItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.item1 -> Toast.makeText(this,"@string/profil", Toast.LENGTH_LONG).show()
+            R.id.item1 -> Toast.makeText(this, getString(R.string.profil), Toast.LENGTH_LONG).show()
             R.id.item2 -> startActivity(Intent(this, LogScreen::class.java))
             R.id.item3 -> chooseThemeDialog()
         }

@@ -12,9 +12,9 @@ import com.google.firebase.auth.FirebaseAuth
 class LogScreen : AppCompatActivity() {
 
     private lateinit var tvRedirectSignUp: TextView
-    lateinit var etEmail: EditText
-    private lateinit var etPass: EditText
-    lateinit var btnLogin: Button
+    lateinit var etEmail: com.google.android.material.textfield.TextInputEditText
+    private lateinit var etPass: com.google.android.material.textfield.TextInputEditText
+    lateinit var btnLogin: com.google.android.material.button.MaterialButton
 
     // Creating firebaseAuth object
     lateinit var auth: FirebaseAuth

@@ -49,7 +49,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="@string/choose_time"
+                android:text="@string/choose_doctor"
                 android:textColor="@color/textColor"
                 android:textSize="24sp" />
 
@@ -96,14 +96,15 @@
             android:insetBottom="0dp"
             android:paddingHorizontal="30dp"
             android:paddingVertical="15dp"
-            android:text="@string/cancel"
+            android:text="@string/home_button"
             android:textAllCaps="false"
             android:textColor="@color/main"
             android:textSize="18sp"
             app:cornerRadius="15dp"
-            app:elevation="100dp"/>
+            app:elevation="100dp" />
+
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/addButton"
+            android:id="@+id/nextButton"
             android:layout_width="wrap_content"
             android:layout_height="60dp"
             android:layout_gravity="bottom|right"
@@ -115,7 +116,7 @@
             android:insetBottom="0dp"
             android:paddingHorizontal="30dp"
             android:paddingVertical="15dp"
-            android:text="@string/add"
+            android:text="@string/next"
             android:textAllCaps="false"
             android:textColor="@color/textColor"
             android:textSize="18sp"
