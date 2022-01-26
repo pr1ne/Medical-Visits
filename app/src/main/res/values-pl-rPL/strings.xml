@@ -27,4 +27,18 @@
     <string name="home_button">Do głównej</string>
     <string name="choose_time">Wybierz czas</string>
     <string name="choose_doctor">Wybierz miejsce</string>
+    <string name="next">Następny</string>
+    <string name="email">Email</string>
+    <string name="password">Hasło</string>
+    <string name="login">Zaloguj sie</string>
+    <string name="don_t_have_an_account_sign_in">Nie masz konta? Zaloguj</string>
+    <string name="confirm_password">Potwierdź hasło</string>
+    <string name="signed">Zalogowano</string>
+    <string name="already_have_an_account_login">Posiadasz już konto? Zaloguj sie</string>
+    <string name="successfully_signed_up">Zarejestrowano się pomyślnie</string>
+    <string name="singed_up_failed">Rejestracja nie powiodła się!</string>
+    <string name="password_dont_match">Hasło i Potwierdź hasło nie pasują</string>
+    <string name="blank_data">E-mail i hasło nie mogą być puste</string>
+    <string name="succ_log">Zalogowano się pomyślnie</string>
+    <string name="fail_log">Logowanie nie powiodło się</string>
 </resources>

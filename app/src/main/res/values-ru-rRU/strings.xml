@@ -27,4 +27,18 @@
     <string name="home_button">На главную</string>
     <string name="choose_time">Выбор времени</string>
     <string name="choose_doctor">Выбор места</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="next">Следующая</string>
+    <string name="login">Авторизоваться</string>
+    <string name="don_t_have_an_account_sign_in">У вас нет аккаунта? Войти</string>
+    <string name="confirm_password">Подтвердите пароль</string>
+    <string name="signed">Зарегистрирован</string>
+    <string name="already_have_an_account_login">У вас уже есть аккаунт? Авторизоваться</string>
+    <string name="successfully_signed_up">Успешно зарегистрирован</string>
+    <string name="singed_up_failed">Регистрация не удалась!</string>
+    <string name="password_dont_match">Пароль и подтверждение пароля не совпадают</string>
+    <string name="blank_data">Электронная почта и пароль не могут быть пустыми</string>
+    <string name="succ_log">Успешный вход</string>
+    <string name="fail_log">Вход в систему не удался</string>
 </resources>

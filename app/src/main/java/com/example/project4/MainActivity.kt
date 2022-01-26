@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onContextItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.item1 -> Toast.makeText(this,"@string/profil", Toast.LENGTH_LONG).show()
-            R.id.item2 -> Toast.makeText(this,"@string/settings", Toast.LENGTH_LONG).show()
+            R.id.item2 -> startActivity(Intent(this, LogScreen::class.java))
             R.id.item3 -> chooseThemeDialog()
         }
         return super.onContextItemSelected(item)
